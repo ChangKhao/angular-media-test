@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Colors: */
+    --clr-body-bg: #121212;
+    --clr-light: #FFFFFF;
+    --clr-dark: #000000;
+    --clr-yellow: #C7C72F;
+    --clr-chestnut-rose: #BE3D3D;
+    --clr-chestnut-rose-accent: #E57373;
+    --clr-optimum-green: #3DBE85;
+    --clr-optimum-green-accent: #3DBE8540;
+    --clr-grey-100: #D6D6D6;
+    --clr-grey-200: #707070;
+    --clr-grey-300: #3E3E3E;
+    --clr-grey-400: #1E1E1E;
+ 
+    /* Font/text values */
+    --ff-ibm: IBM Plex Sans;
+    --fs-normal: normal;
+    --fw-600: 600px;
+    --fw-normal: normal;
+    --fs-14: 14px;
+    --fs-12: 12px;
+    --char-spacing-0: 0px;
+    --ls-16: 16px;
+    --ls-19: 19px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+body { 
+    background-color: var(--clr-body-bg);
+    color: var(--clr-light);
+
+    font-family: var(--ff-ibm);
+    font-size: var(--fs-normal);
+    font-weight: var(--fw-normal);
+    margin: 34px 32px;
+}
