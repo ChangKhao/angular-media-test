@@ -6,7 +6,7 @@
     "start": "ng node server.js",
     "build": "ng build",
     "test": "ng test",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot"
   },
   "main": "dist/dege-495/index.html",
   "private": true,
