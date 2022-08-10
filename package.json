@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "main": "dist/dege-495/index.html",
   "private": true,
   "dependencies": {
     "@angular/animations": "~13.2.0",
